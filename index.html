@@ -1,0 +1,496 @@
+<!--
+   _____            _                                 _       _____       _ _     _ 
+  / ____|          | |                               | |     / ____|     (_) |   | |
+ | |    _   _ _ __ | |__   ___ _ __ _ __  _   _ _ __ | | __ | |  __ _   _ _| | __| |
+ | |   | | | | '_ \| '_ \ / _ \ '__| '_ \| | | | '_ \| |/ / | | |_ | | | | | |/ _` |
+ | |___| |_| | |_) | | | |  __/ |  | |_) | |_| | | | |   <  | |__| | |_| | | | (_| |
+  \_____\__, | .__/|_| |_|\___|_|  | .__/ \__,_|_| |_|_|\_\  \_____|\__,_|_|_|\__,_|
+         __/ | |                   | |                                              
+        |___/|_|                   |_|                                              
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.min.css?v=1.0.0">
+<!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">    <!--tags-->
+    <title>Cypherpunk Guild</title>
+    <meta property="og:title" content="Cypherpunk Guild" />
+    <meta name="twitter:title" content="Cypherpunk Guild" />
+    <meta property="og:image" content="/img/og.jpg">
+    <meta name="description" content="Enabling coders to prioritize privacy for a world free from prying eyes."/>
+    <meta property="og:description" content="Enabling coders to prioritize privacy for a world free from prying eyes." />
+    <meta name="twitter:description" content="Enabling coders to prioritize privacy for a world free from prying eyes." />
+    <!--end tags-->
+</head>
+
+<body data-spy="scroll" data-target="#header" data-offset="250">
+    <header class="header liquid">
+    <div class="header__container container">
+        <div class="header__leftside">
+            <div class="header__leftside-logo">
+                <img src="assets/logo.svg" alt="Cypherpunk Guild">
+            </div>
+        </div>
+        <ul class="header__nav toggle nav">
+            <li class="header__nav-li nav-item"><a class="header__nav-a nav-link" href="#">Medium Blog</a></li>
+            <li class="header__nav-li nav-item"><a class="header__nav-a nav-link" href="#press">Press Kit</a></li>
+            <li class="header__nav-li nav-item"><a class="header__nav-a nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a href="javascript:void(0);" id="menu" class="header__menu toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+</header>
+    <section class="hero">
+        <div class="hero__container container">
+            <div class="hero__row row">
+                <div class="hero__col col-md-12 col-12">
+                    <div class="hero__col-container">
+                        <svg viewBox="0 0 170 18" class="hero__title h1">
+                            <text x="0" y="15" fill="#212721">Priv4cy 1s th3 p0wer</text>
+                        </svg>
+                        <h3 class="hero__descr h3">
+                            ENABLING CODERS TO PRIORITIZE PRIVACY 
+                        </h3>
+                        <svg viewBox="0 0 170 18" class="hero__title h1">
+                            <text x="0" y="15" fill="#212721">t0 selec7iv3ly reve4</text>
+                        </svg>
+                        <h3 class="hero__descr h3">
+                            FOR A WORLD FREE FROM PRYING EYES.
+                        </h3>
+                        <svg viewBox="0 0 170 18" class="hero__title h1">
+                            <text x="0" y="15" fill="#212721">0neself t0 7he w0rld.</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__row row">
+                <div class="hero__col col-md-6 col-12">
+                    <p>
+                        Prying eyes, eavesdropping ears, clawing hands… Today’s internet is dark forest full of predators and parasites, ready to exploit the unwary and unprotected. We must do better.
+                    </p>
+                </div>
+                <div class="hero__col col-md-6 col-12">
+                    <p>
+                    We envision a world where ordinary people can freely and confidently conduct their digital affairs, aware and equipped to face the ever-present threats. A world where privacy by design is the norm.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how">
+        <div class="how__container container">
+            <div class="how__row row">
+                <div class="how__col col-md-6 col-12">
+                    <h3 class="h3">
+                        Who are the cypherpunks?
+                    </h3>
+                    <p>
+                        Cypherpunks are advocates for the widespread use of strong cryptography and technologies that enhance privacy and self-sovereignty. The movement began in the 1980s, but the name was coined in 1992, followed by Eric Hughes’ 1993 <span class="high">A Cypherpunk’s Manifesto</span>. Notable achievements by cypherpunks include the creation of the Electronic Frontier Foundation (EFF), PGP, SSL, SSH, BitTorrent, Tor, WikiLeaks, Bitcoin, smart contracts, Zcash, and Signal. A great introduction is Reason TV’s short documentary, <span class="high">Cypherpunks Write Code</span>.<br>
+                        The “cypherpunk” name was a pun based on “cyberpunk”. “Cipher”—an encryption-decryption algorithm—comes from the Arabic word for zero. So “cypherpunk” should not be confused with cyberpunk--cypherpunks are a movement based on a philosophy, while cyberpunk is a genre and  Blade Runner aesthetic. And, despite their shared fondness for masks, cypherpunks should not be confused with Anonymous: cypherpunks defend, Anonymous attacks.
+                    </p>
+                </div>
+                <div class="how__col col-md-6 col-12">
+                    <svg viewBox="0 0 170 45" class="how__svg">
+                        <text x="0" y="18" fill="#212721">
+                            <tspan x="0" dy="0em">cyph3rpunks</tspan>
+                            <tspan x="0" dy="1em"> wr1te c0de</tspan>
+                        </text>
+                    </svg>
+                    <button type="button" class="how__img-container pop" data-toggle="modal" data-src="https://www.youtube.com/embed/BNig6xG36i4" data-target="#myModal">
+                        <img src="img/video.png" class="how__img">
+                    </button>
+                    <svg viewBox="0 0 170 24" class="how__svg">
+                        <text x="0" y="18" fill="#212721">>_</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="council">
+        <div class="council__container container">
+            <div class="council__row row">
+                <div class="council__col col-md-3 col-12">
+                    <h4 class="h4">
+                        Council
+                    </h4>
+                </div>
+                <div class="council__col col-md-9 col-12">
+                    <p class="council__title">The Cypherpunk Guild Council consists of:</p>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <!-- card #1-->
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/card/arto.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Arto Bendiken</p>
+                                        <p class="card__descr-sub">arto.near</p>
+                                    </div>
+                                    <p class="card__descr-position">Compelling single line bio goes here.</p>
+                                </div>
+                            </div>
+                            <!-- card #2-->
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/card/ev.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Evgeny Kuzyakov</p>
+                                        <p class="card__descr-sub">ek.near</p>
+                                    </div>
+                                    <p class="card__descr-position">Compelling single line bio goes here.</p>
+                                </div>
+                            </div>
+                            <!-- card #3-->
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/card/jon.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Jon Matonis</p>
+                                        <p class="card__descr-sub">matonis.near</p>
+                                    </div>
+                                    <p class="card__descr-position">Compelling single line bio goes here.</p>
+                                </div>
+                            </div>
+                            <!-- card #4-->
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/card/ozy.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Ozymandius</p>
+                                        <p class="card__descr-sub">ozymandius.near</p>
+                                    </div>
+                                    <p class="card__descr-position">Compelling single line bio goes here.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <!-- card #1-->
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/card/dani.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Dani Orsorio</p>
+                                        <p class="card__descr-sub">waverlymaven.near</p>
+                                    </div>
+                                    <p class="card__descr-position">Compelling single line bio goes here.</p>
+                                </div>
+                            </div>
+                            <!-- card #2-->
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/card/frank.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Frank Braun</p>
+                                        <p class="card__descr-sub">frankbraun.near</p>
+                                    </div>
+                                    <p class="card__descr-position">Compelling single line bio goes here.</p>
+                                </div>
+                            </div>
+                            <!-- card #3-->
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/card/yu.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Yulian Lavysh</p>
+                                        <p class="card__descr-sub">yulian.near</p>
+                                    </div>
+                                    <p class="card__descr-position">Compelling single line bio goes here.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Yulian Lavysh is the project lead, and day-to-day affairs are handled by a small staff, currently program manager Steve Cobb (stevecobb.near).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="council">
+        <div class="council__container container">
+            <div class="council__row row mb-50">
+                <div class="council__col col-md-3 col-12">
+                    <h4 class="h4">
+                        Grants
+                    </h4>
+                </div>
+                <div class="council__col col-md-9 col-12">
+                    <h3 class="h3">investment philosophy</h3>
+                    <p class="council__title">Like all grant-giving organizations, the CPG seeks to maximize benefit by supporting projects that advance its mission with the greatest possible impact.</p>
+                    <p>We have identified several priority areas:</p>
+                    <div class="council__list">
+                        <div class="council__list-item"><span class="numb">1.</span>Private transactions (including every aspect of DeFi with more privacy)</div>
+                        <div class="council__list-item"><span class="numb">2.</span>DAO/governance technology (including private voting)</div>
+                        <div class="council__list-item"><span class="numb">3.</span>Messaging and social networks</div>
+                    </div>
+                    <p>However, we would be happy to receive proposals in innovative and surprising areas.</br></br>
+                        CPG grant impact is a product of two factors: the impact of our investment on the project, and of the project on the world. We believe that cryptographic technologies offer such 100x potential.</br></br>
+                        Importantly, we want our donors to know that their resources have been put to good use. Our grant recipients should make both us and our donors proud!</p>
+                </div>
+            </div>
+            <div class="council__row row">
+                <div class="council__col col-md-3 col-12">
+                </div>
+                <div class="council__col col-md-9 col-12">
+                    <h3 class="h3">apply for a grant</h3>
+                    <p class="council__title">The grant application system is currently hosted within the NEAR Forum. To apply for a grant, you should...</p>
+                    <div class="council__list">
+                        <div class="council__list-item"><div><span class="numb">1.</span></div><p>Join the the NEAR forum at <a href="gov.near.org" style="margin-left:10px">gov.near.org</a></p></div>
+                        <div class="council__list-item"><div><span class="numb">2.</span></div><p>Spend at least 10 minutes reading posts, in order to achieve <span class="high">Trust Level 1</span>, and receive posting privileges</p></div>
+                        <div class="council__list-item"><div><span class="numb">3.</span></div><p>Start a new topic in the Cypherpunk Guild community category; you will be presented with a a grant application form as a markdown template </p></div>
+                    </div>
+                    <p>Alternatively, you can use this <a href="#">Google Form</a>, and we will repost it to the forum. Once your application is posted, the community can discuss it, and you can update it freely. If you feel uncomfortable with this public process, you may submit the application to us directly and request that we not share it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="council">
+        <div class="council__container container">
+            <div class="council__row row">
+                <div class="council__col col-md-3 col-12">
+                    <h4 class="h4">
+                        Funded
+                    </h4>
+                </div>
+                <div class="council__col col-md-9 col-12">
+                    <p class="council__title">Below are some of the organizations and projects that the Cypherpunk Guild has had the honor of supporting:</p>
+                    <div class="row">
+                        <div class="col-md-12 col-12">
+                            <!-- card #1-->
+                            <div class="card">
+                                <div class="card__img card__img--v2">
+                                    <img src="img/card/fund.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">ZeroPool</p>
+                                        <p class="card__descr-sub">zeropool.network</p>
+                                    </div>
+                                    <p class="card__descr-position">ZeroPool is a multi-blockchain, ZKP-based solution for transaction privacy.</p>
+                                </div>
+                            </div>
+                            <!-- card #2-->
+                            <div class="card">
+                                <div class="card__img card__img--v2">
+                                    <img src="img/card/sut.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Suterusu</p>
+                                        <p class="card__descr-sub">suterusu.io</p>
+                                    </div>
+                                    <p class="card__descr-position">Private Payment Infrastructure for Cryptocurrency</p>
+                                </div>
+                            </div>
+                            <!-- card #3-->
+                            <div class="card">
+                                <div class="card__img card__img--v2">
+                                    <img src="img/card/zec.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Zecrey</p>
+                                        <p class="card__descr-sub">zecrey.com</p>
+                                    </div>
+                                    <p class="card__descr-position">Bringing privacy to digital assets</p>
+                                </div>
+                            </div>
+                            <!-- card #4-->
+                            <div class="card">
+                                <div class="card__img card__img--v2">
+                                    <img src="img/card/nym.png" alt="">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">NYM</p>
+                                        <p class="card__descr-sub">nymtech.net</p>
+                                    </div>
+                                    <p class="card__descr-position">Privacy-infrastructure gurus Nym are producing a ZKP study for the CPG and NEAR.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="council">
+        <div class="council__container container">
+            <div class="council__row row mb-50">
+                <div class="council__col col-md-3 col-12">
+                    <h4 class="h4">
+                        Backers
+                    </h4>
+                </div>
+                <div class="council__col col-md-9 col-12">
+                    <p class="council__title">As a Swiss non-profit association, the Cypherpunk Guild is funded by donors who support our mission.</p>
+                    <div class="row backers">
+                        <div class="col-md-4 col-12">
+                            <img src="img/near.png" class="backers__img">
+                        </div>
+                        <div class="col-md-8 col-12">
+                            <p>The founding donor is the NEAR Foundation, steward of the NEAR Protocol, that is enabling a world where people have control over their money, data, and power of governance. <a href="#">Learn More</a></p>
+                        </div>
+                    </div>
+                    <div class="row backers">
+                        <div class="col-md-4 col-12">
+                            <img src="img/owc.png" class="backers__img">
+                        </div>
+                        <div class="col-md-8 col-12">
+                            <p>Another generous donor is the Open Web Collective, a blockchain accelerator and community pioneering the Open Web: a future where users can manage their identity, privacy, money, and data. <a href="#">Learn More</a></p>
+                        </div>
+                    </div>
+                    <p class="council__title">The Cypherpunk Guild welcomes other donors, large and small. If you would like to contribute, please <a href="#">contact us</a> or use one of the methods below.</p>
+                    <div class="qr row">
+                        <div class="col-md-3 col-6"><img src="img/qr/1.png"></div>
+                        <div class="col-md-3 col-6"><img src="img/qr/2.png"></div>
+                        <div class="col-md-3 col-6"><img src="img/qr/3.png"></div>
+                        <div class="col-md-3 col-6"><img src="img/qr/4.png"></div>
+                    </div>
+                    <div class="qr row">
+                        <div class="col-md-3 col-6"><img src="img/qr/5.png"></div>
+                        <div class="col-md-3 col-6"><img src="img/qr/6.png"></div>
+                        <div class="col-md-3 col-6"><img src="img/qr/7.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="council" id="contact">
+        <div class="council__container container">
+            <div class="council__row row">
+                <div class="council__col col-md-3 col-12">
+                    <h4 class="h4">
+                        Get involved
+                    </h4>
+                </div>
+                <div class="council__col col-md-9 col-12">
+                    <p class="council__title">If you share the cypherpunk philosophy, get involved! It’s true, “Cypherpunks code”, but there are other ways to contribute. If you have an itch, scratch it.<br><br>
+                    <b>You can join the discussion in several venues:</b></p>
+                    <div class="row contact">
+                        <div class="col-md-6 col-12">
+                            <div class="contact__container">
+                                <img src="img/forum.svg">
+                                <a href="forum.near.org">forum.near.org</a>
+                            </div>
+                            <div class="contact__container">
+                                <img src="img/twitter.svg">
+                                <a href="https://twitter.com/CypherpunkGuild">@CypherpunkGuild</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="contact__container">
+                                <img src="img/matrix.svg">
+                                <a href="#">#cypherpunkguild:matrix.org</a>
+                            </div>
+                            <div class="contact__container">
+                                <img src="img/mastadon.svg">
+                                <a href="#">mastadon</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="council">
+        <div class="council__container container">
+            <div class="council__row row">
+                <div class="council__col col-md-3 col-12">
+                    <h4 class="h4">
+                    events
+                    </h4>
+                </div>
+                <div class="council__col col-md-9 col-12">
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/ocean_dev/call-dmitry?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:630px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                    <!-- Calendly inline widget end -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__row row">
+            <div class="footer__col footer__col--first col-md-4 col-12">
+                <a href="/" class="footer__col-logo">
+                    <img src="assets/logo.svg" alt="Cypherpunk Guild">
+                </a>
+                <div class="footer__col-main-container">
+                    <p>Cypherpunk Association c/o Palisade Data GmbH</p>
+                    <p>Affolternstrasse 10 8050 Zurich Switzerland</p>
+                    <a href="mailto:info@cypherpunk-guild.org">info@cypherpunk-guild.org</a>
+                </div>
+            </div>
+            <div class="footer__col footer__col--second col-md-4 col-12">
+                <ul class="footer__nav">
+                    <li class="footer__nav-item"><a href="#">Medium Blog</a></li>
+                    <li class="footer__nav-item"><a href="#press">Press Kit</a></li>
+                    <li class="footer__nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
+
+<script src="js/home.js"></script>
+
+<!--<script src="js/form.js"></script>-->
+
+<script src="js/script.js"></script>
+</body>
+</html>
