@@ -387,11 +387,8 @@ section {
   border: none;
   margin-bottom: 30px;
 }
-.council .card__img {
-  width: 72px;
-}
 .council .card__img img {
-  width: 100%;
+  width: 72px;
 }
 .council .card__img--v2 {
   width: unset;
@@ -418,12 +415,69 @@ section {
 }
 .council .card__descr-position {
   font-size: 16px;
+  margin: 0;
 }
 .council .card__descr-sub {
   font-size: 14px;
   color: #A8AD00;
   margin: 0;
   padding-left: 10px;
+}
+.council .card__descr-soc a:hover {
+  text-decoration: none;
+}
+.council .card__descr-soc img {
+  width: 16px;
+  margin-right: 10px;
+}
+.council .card__descr-soc img:hover {
+  opacity: 0.6;
+}
+
+.copy {
+  cursor: copy;
+  overflow-wrap: anywhere;
+  color: #fff;
+  font-weight: bold;
+}
+
+.event {
+  border-bottom: 2px solid #2B312B;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+}
+.event p {
+  margin: 0;
+}
+.event__date:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  background: url(/img/date.svg);
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.event__location:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  background: url(/img/location.svg);
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.event__title {
+  font-size: 24px;
+  line-height: 31px;
+  color: #DBE442;
+  font-weight: normal;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
 }
 
 .backers {
