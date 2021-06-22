@@ -405,9 +405,8 @@ section{
         border: none;
         margin-bottom: 30px;
         &__img{
-            width: 72px;
             img{
-                width: 100%;
+                width: 72px;
             }
             &--v2{
                 width: unset;
@@ -432,6 +431,7 @@ section{
             }
             &-position{
                 font-size: 16px;
+                margin: 0;
             }
             &-sub{
                 font-size: 14px;
@@ -439,7 +439,71 @@ section{
                 margin: 0;
                 padding-left: 10px;
             }
+            &-soc{
+                a{
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+                img{
+                    width: 16px;
+                    margin-right: 10px;
+                    &:hover{
+                        opacity: 0.6;
+                    }
+                }
+            }
         }
+    }
+}
+
+.copy{
+    cursor: copy;
+    overflow-wrap: anywhere;
+    color: #fff;
+    font-weight: bold;
+}
+
+.event{
+    border-bottom: 2px solid #2B312B;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    p{
+        margin: 0;
+    }
+    &__date{
+        &:before{
+            content: '';
+            width: 16px;
+            height: 16px;
+            margin-right: 6px;
+            background: url(/img/date.svg);
+            background-size: contain;
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    }
+    &__location{
+        &:before{
+            content: '';
+            width: 16px;
+            height: 16px;
+            margin-right: 6px;
+            background: url(/img/location.svg);
+            background-size: contain;
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    }
+    &__title{
+        font-size: 24px;
+        line-height: 31px;
+        color: #DBE442;
+        font-weight: normal;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
     }
 }
 
