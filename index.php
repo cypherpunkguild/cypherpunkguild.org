@@ -185,7 +185,7 @@
                                         <p class="card__descr-name">Frank Braun</p>
                                         <p class="card__descr-sub">frankbraun.near</p>
                                     </div>
-                                    <p class="card__descr-position">Compelling single line bio goes here.</p>
+                                    <p class="card__descr-position">Cypherpunk &amp; cryptoanarchist.</p>
                                 </div>
                             </div>
                             <!-- card #3-->
