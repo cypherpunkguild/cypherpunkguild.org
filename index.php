@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
    _____            _                                 _       _____       _ _     _
   / ____|          | |                               | |     / ____|     (_) |   | |
@@ -74,7 +75,7 @@
                         Who are the cypherpunks?
                     </h3>
                     <p>
-                        Cypherpunks are advocates for the widespread use of strong cryptography and technologies that enhance privacy and self-sovereignty. The movement began in the 1980s, but the name was coined in 1992, followed by Eric Hughes’ 1993 <span class="high">A Cypherpunk’s Manifesto</span>. Notable achievements by cypherpunks include the creation of the Electronic Frontier Foundation (EFF), PGP, SSL, SSH, BitTorrent, Tor, WikiLeaks, Bitcoin, smart contracts, Zcash, and Signal. A great introduction is Reason TV’s short documentary, <span class="high">Cypherpunks Write Code</span>.<br>
+                        Cypherpunks are advocates for the widespread use of strong cryptography and technologies that enhance privacy and self-sovereignty. The movement began in the 1980s, but the name was coined in 1992, followed by Eric Hughes’ 1993 <a href="https://www.activism.net/cypherpunk/manifesto.html">A Cypherpunk’s Manifesto</a>. Notable achievements by cypherpunks include the creation of the Electronic Frontier Foundation (EFF), PGP, SSL, SSH, BitTorrent, Tor, WikiLeaks, Bitcoin, smart contracts, Zcash, and Signal. A great introduction is Reason TV’s short documentary, <a href="https://reason.com/video/2020/10/07/before-the-web-the-1980s-dream-of-a-free-and-borderless-virtual-world/">Cypherpunks Write Code</a>.<br>
                         The “cypherpunk” name was a pun based on “cyberpunk”. “Cipher”—an encryption-decryption algorithm—comes from the Arabic word for zero. So “cypherpunk” should not be confused with cyberpunk--cypherpunks are a movement based on a philosophy, while cyberpunk is a genre and  Blade Runner aesthetic. And, despite their shared fondness for masks, cypherpunks should not be confused with Anonymous: cypherpunks defend, Anonymous attacks.
                     </p>
                 </div>
@@ -85,8 +86,8 @@
                             <tspan x="0" dy="1em"> wr1te c0de</tspan>
                         </text>
                     </svg>
-                    <button type="button" class="how__img-container pop" data-toggle="modal" data-src="https://www.youtube.com/embed/BNig6xG36i4" data-target="#myModal">
-                        <img src="img/video.png" class="how__img">
+                    <button type="button" class="how__img-container pop" data-toggle="modal" data-src="https://www.youtube.com/embed/YWh6Yzr12iQ" data-target="#myModal">
+                        <img src="img/video.png" class="how__img" alt="Play Video">
                     </button>
                     <svg viewBox="0 0 170 24" class="how__svg">
                         <text x="0" y="18" fill="#212721">>_</text>
@@ -111,7 +112,7 @@
                             <!-- card #1-->
                             <div class="card">
                                 <div class="card__img">
-                                    <img src="img/card/arto.png" alt="">
+                                    <img src="img/card/arto.png" alt="Arto">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -121,10 +122,10 @@
                                     <p class="card__descr-position">Autodidact, cypherpunk, entrepreneur, and prolific open-source author.</p>
                                     <div class="card__descr-soc">
                                         <a class="card__descr-soc--twitter" href="https://twitter.com/bendiken">
-                                            <img src="/img/tw.svg">
+                                            <img src="/img/tw.svg" alt="twitter">
                                         </a>
                                         <a class="card__descr-soc--linkedin" href="https://www.linkedin.com/in/arto/">
-                                            <img src="/img/link.svg">
+                                            <img src="/img/link.svg" alt="linkedin">
                                         </a>
                                     </div>
                                 </div>
@@ -142,10 +143,10 @@
                                     <p class="card__descr-position">ICPC gold medalist who served years in Big Tech before leaving to pursue machine learning and blockchain.</p>
                                     <div class="card__descr-soc">
                                         <a class="card__descr-soc--twitter" href="https://twitter.com/ekuzyakov">
-                                            <img src="/img/tw.svg">
+                                            <img src="/img/tw.svg" alt="twitter">
                                         </a>
                                         <a class="card__descr-soc--linkedin" href="https://www.linkedin.com/in/ekuzyakov/">
-                                            <img src="/img/link.svg">
+                                            <img src="/img/link.svg" alt="linkedin">
                                         </a>
                                     </div>
                                 </div>
@@ -153,7 +154,7 @@
                             <!-- card #3-->
                             <div class="card">
                                 <div class="card__img">
-                                    <img src="img/card/jon.png" alt="">
+                                    <img src="img/card/jon.png" alt="Jon">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -163,10 +164,10 @@
                                     <p class="card__descr-position">Director and Chief Economist at Cypherpunk Holdings, monetary economist, a founding director of the Bitcoin Foundation and a financial columnist.</p>
                                     <div class="card__descr-soc">
                                         <a class="card__descr-soc--twitter" href="https://twitter.com/jonmatonis">
-                                            <img src="/img/tw.svg">
+                                            <img src="/img/tw.svg" alt="twitter">
                                         </a>
                                         <a class="card__descr-soc--linkedin" href="https://www.linkedin.com/in/jonmatonis/">
-                                            <img src="/img/link.svg">
+                                            <img src="/img/link.svg" alt="linkedin">
                                         </a>
                                     </div>
                                 </div>
@@ -174,7 +175,7 @@
                             <!-- card #4-->
                             <div class="card">
                                 <div class="card__img">
-                                    <img src="img/card/ozy.png" alt="">
+                                    <img src="img/card/ozy.png" alt="Ozymandius">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -184,7 +185,7 @@
                                     <p class="card__descr-position">Digital nomad, NEAR advocate, and founder of 4NTS Guild.</p>
                                     <div class="card__descr-soc">
                                         <a class="card__descr-soc--twitter" href="https://twitter.com/kingnear100">
-                                            <img src="/img/tw.svg">
+                                            <img src="/img/tw.svg" alt="twitter">
                                         </a>
                                     </div>
                                 </div>
@@ -194,7 +195,7 @@
                             <!-- card #1-->
                             <div class="card">
                                 <div class="card__img">
-                                    <img src="img/card/dani.png" alt="">
+                                    <img src="img/card/dani.png" alt="Dani">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -204,10 +205,10 @@
                                     <p class="card__descr-position">Dartmouth grad and veteran of high-growth startups and the Ethereum ecosystem.</p>
                                     <div class="card__descr-soc">
                                         <a class="card__descr-soc--twitter" href="https://twitter.com/WaverlyMaven">
-                                            <img src="/img/tw.svg">
+                                            <img src="/img/tw.svg" alt="twitter">
                                         </a>
                                         <a class="card__descr-soc--linkedin" href="https://www.linkedin.com/in/daniosorio/">
-                                            <img src="/img/link.svg">
+                                            <img src="/img/link.svg" alt="linkedin">
                                         </a>
                                     </div>
                                 </div>
@@ -215,7 +216,7 @@
                             <!-- card #2-->
                             <div class="card">
                                 <div class="card__img">
-                                    <img src="img/card/frank.png" alt="">
+                                    <img src="img/card/frank.png" alt="Frank">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -225,7 +226,7 @@
                                     <p class="card__descr-position">Cypherpunk, cryptoanarchist, and co-host of the Cypherpunk Bitstream podcast.</p>
                                     <div class="card__descr-soc">
                                         <a class="card__descr-soc--twitter" href="https://twitter.com/thefrankbraun">
-                                            <img src="/img/tw.svg">
+                                            <img src="/img/tw.svg" alt="twitter">
                                         </a>
                                     </div>
                                 </div>
@@ -233,7 +234,7 @@
                             <!-- card #3-->
                             <div class="card">
                                 <div class="card__img">
-                                    <img src="img/card/yu.png" alt="">
+                                    <img src="img/card/yu.png" alt="Yulian">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -243,10 +244,10 @@
                                     <p class="card__descr-position">Generalist with 5+ years of experience in High Growth tech companies.</p>
                                     <div class="card__descr-soc">
                                         <a class="card__descr-soc--twitter" href="https://twitter.com/yulianNEAR">
-                                            <img src="/img/tw.svg">
+                                            <img src="/img/tw.svg" alt="twitter">
                                         </a>
                                         <a class="card__descr-soc--linkedin" href="https://www.linkedin.com/in/yulian-lavysh/">
-                                            <img src="/img/link.svg">
+                                            <img src="/img/link.svg" alt="linkedin">
                                         </a>
                                     </div>
                                 </div>
@@ -288,8 +289,8 @@
                     <h3 class="h3">apply for a grant</h3>
                     <p class="council__title">The grant application system is currently hosted within the NEAR Forum. To apply for a grant, you should...</p>
                     <div class="council__list">
-                        <div class="council__list-item"><div><span class="numb">1.</span></div><p>Join the the NEAR forum at <a href="gov.near.org" style="margin-left:10px">gov.near.org</a></p></div>
-                        <div class="council__list-item"><div><span class="numb">2.</span></div><p>Spend at least 10 minutes reading posts, in order to achieve <span class="high">Trust Level 1</span>, and receive posting privileges</p></div>
+                        <div class="council__list-item"><div><span class="numb">1.</span></div><p>Join the the NEAR forum at <a href="https://gov.near.org/tag/cypherpunk-guild" style="margin-left:10px">gov.near.org</a></p></div>
+                        <div class="council__list-item"><div><span class="numb">2.</span></div><p>Spend at least 10 minutes reading posts, in order to achieve <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Trust Level 1</a>, and receive posting privileges</p></div>
                         <div class="council__list-item"><div><span class="numb">3.</span></div><p>Start a new topic in the Cypherpunk Guild community category; you will be presented with a a grant application form as a markdown template </p></div>
                     </div>
                     <p>Alternatively, you can use this <a href="#">Google Form</a>, and we will repost it to the forum. Once your application is posted, the community can discuss it, and you can update it freely. If you feel uncomfortable with this public process, you may submit the application to us directly and request that we not share it.</p>
@@ -313,7 +314,7 @@
                             <!-- card #1-->
                             <div class="card">
                                 <div class="card__img card__img--v2">
-                                    <img src="img/card/fund.png" alt="">
+                                    <img src="img/card/fund.png" alt="ZeroPool">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -326,7 +327,7 @@
                             <!-- card #2-->
                             <div class="card">
                                 <div class="card__img card__img--v2">
-                                    <img src="img/card/sut.png" alt="">
+                                    <img src="img/card/sut.png" alt="Suterusu">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -339,7 +340,7 @@
                             <!-- card #3-->
                             <div class="card">
                                 <div class="card__img card__img--v2">
-                                    <img src="img/card/zec.png" alt="">
+                                    <img src="img/card/zec.png" alt="Zecrey">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -352,7 +353,7 @@
                             <!-- card #4-->
                             <div class="card">
                                 <div class="card__img card__img--v2">
-                                    <img src="img/card/nym.png" alt="">
+                                    <img src="img/card/nym.png" alt="NYM">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
@@ -381,7 +382,7 @@
                     <p class="council__title">As a Swiss non-profit association, the Cypherpunk Guild is funded by donors who support our mission.</p>
                     <div class="row backers">
                         <div class="col-md-4 col-12">
-                            <img src="img/near.png" class="backers__img">
+                            <img src="img/near.png" class="backers__img" alt="near">
                         </div>
                         <div class="col-md-8 col-12">
                             <p>The founding donor is the NEAR Foundation, steward of the NEAR Protocol, that is enabling a world where people have control over their money, data, and power of governance. <a href="#">Learn More</a></p>
@@ -389,38 +390,36 @@
                     </div>
                     <div class="row backers">
                         <div class="col-md-4 col-12">
-                            <img src="img/owc.png" class="backers__img">
+                            <img src="img/owc.png" class="backers__img" alt="Open Web Collective">
                         </div>
                         <div class="col-md-8 col-12">
                             <p>Another generous donor is the Open Web Collective, a blockchain accelerator and community pioneering the Open Web: a future where users can manage their identity, privacy, money, and data. <a href="#">Learn More</a></p>
                         </div>
                     </div>
-                    <p class="council__title">The Cypherpunk Guild welcomes other donors, large and small. If you would like to contribute, please <a href="#">contact us</a> or use one of the methods below.</p>
+                    <p class="council__title">The Cypherpunk Guild welcomes other donors, large and small. If you would like to contribute, please <a href="#contact">contact us</a> or use one of the methods below.</p>
                     <div class="qr row">
                         <div class="col-md-4 col-6">
-                            <img src="img/qr/1.png">
+                            <img src="img/qr/1.png" alt="QR">
                                 <p>Bitcoin (BTC): <span class="copy">35jD1rozb1H97y3ctDMJPKnPMC3T9TJDQE</span></p>
                         </div>
                         <div class="col-md-4 col-6">
-                            <img src="img/qr/2.png">
+                            <img src="img/qr/2.png" alt="QR">
                                 <p>Ethereum (ETH): <span class="copy">0xF6A17cec86220C28A5F839b828797E3cfEbCB5cd</span></p>
                         </div>
                         <div class="col-md-4 col-6">
-                            <img src="img/qr/3.png">
+                            <img src="img/qr/3.png" alt="QR">
                                 <p>NEAR: <span class="copy">cypherpunkguild.near</span></p>
                         </div>
-                    </div>
-                    <div class="qr row">
                         <div class="col-md-4 col-6">
-                            <img src="img/qr/4.png">
+                            <img src="img/qr/4.png" alt="QR">
                                 <p>Decred (DCR): <span class="copy">DsSu1toUhqZA2d4CVUuhRa8t173Sf1Bbnz1</span></p>
                         </div>
                         <div class="col-md-4 col-6">
-                            <img src="img/qr/5.png">
+                            <img src="img/qr/5.png" alt="QR">
                                 <p>Monero (XMR): <span class="copy">8AgZMniMuLxNo7vvULrPZvCqNLznscfSjHSQ5cJyfsYA5HdURpv1cAhFXT8NqVxUhxU4c6zrB8T335QwLqxKc1tDFkFh4Bb</span></p>
                         </div>
                         <div class="col-md-4 col-6">
-                            <img src="img/qr/6.png">
+                            <img src="img/qr/6.png" alt="QR">
                                 <p>Zcash (ZEC): <span class="copy">t1P5rxu6PTVqtvEV6YGaxugYdFsftY4jgey</span></p>
                         </div>
                     </div>
@@ -443,22 +442,22 @@
                     <div class="row contact">
                         <div class="col-md-6 col-12">
                             <div class="contact__container">
-                                <img src="img/forum.svg">
-                                <a href="forum.near.org">forum.near.org</a>
+                                <img src="img/forum.svg" alt="forum">
+                                <a href="https://gov.near.org/">forum.near.org</a>
                             </div>
                             <div class="contact__container">
-                                <img src="img/twitter.svg">
+                                <img src="img/twitter.svg" alt="twitter">
                                 <a href="https://twitter.com/CypherpunkGuild">@CypherpunkGuild</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="contact__container">
-                                <img src="img/matrix.svg">
+                                <img src="img/matrix.svg" alt="Matrix">
                                 <a href="#">#cypherpunkguild:matrix.org</a>
                             </div>
                             <div class="contact__container">
-                                <img src="img/mastadon.svg">
-                                <a href="#">mastadon</a>
+                                <img src="img/mastadon.svg" alt="Mastadon">
+                                <a href="https://liberdon.com/@CypherpunkGuild">mastodon</a>
                             </div>
                         </div>
                     </div>

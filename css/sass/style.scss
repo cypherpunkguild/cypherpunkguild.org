@@ -32,6 +32,9 @@ body{
     outline-offset: 0;
 }
 
+section{
+    overflow: hidden;
+}
 
 :hover{
     transition: all 0.4s ease-out;
@@ -457,13 +460,6 @@ section{
     }
 }
 
-.copy{
-    cursor: copy;
-    overflow-wrap: anywhere;
-    color: #fff;
-    font-weight: bold;
-}
-
 .event{
     border-bottom: 2px solid #2B312B;
     margin-bottom: 20px;
@@ -523,11 +519,25 @@ section{
 }
 
 .qr{
+    text-align: center;
+    p{
+        font-weight: bold;
+        color: #fff;
+    }
     img{
         max-width: 150px;
         margin-bottom: 20px;
         margin-top: 50px;
     }
+}
+
+.copy{
+    cursor: copy;
+    overflow-wrap: anywhere;
+    font-weight: normal;
+    color: #C8C9C7;
+    display: block;
+    word-break: break-word;
 }
 
 .calendly-inline-widget{
