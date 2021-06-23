@@ -254,7 +254,6 @@
                             </div>
                         </div>
                     </div>
-                    <p>Yulian Lavysh is the project lead, and day-to-day affairs are handled by a small staff, currently program manager Steve Cobb (stevecobb.near).</p>
                 </div>
             </div>
         </div>
@@ -370,7 +369,7 @@
         </div>
     </section>
 
-    <section class="council">
+    <section class="council overflow">
         <div class="council__container container">
             <div class="council__row row mb-50">
                 <div class="council__col col-md-3 col-12">
