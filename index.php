@@ -385,7 +385,7 @@
                             <img src="img/near.png" class="backers__img" alt="near">
                         </div>
                         <div class="col-md-8 col-12">
-                            <p>The founding donor is the NEAR Foundation, steward of the NEAR Protocol, that is enabling a world where people have control over their money, data, and power of governance. <a href="#">Learn More</a></p>
+                            <p>The founding donor is the NEAR Foundation, steward of the NEAR Protocol, that is enabling a world where people have control over their money, data, and power of governance. <a href="https://near.org">Learn More</a></p>
                         </div>
                     </div>
                     <div class="row backers">
@@ -393,7 +393,7 @@
                             <img src="img/owc.png" class="backers__img" alt="Open Web Collective">
                         </div>
                         <div class="col-md-8 col-12">
-                            <p>Another generous donor is the Open Web Collective, a blockchain accelerator and community pioneering the Open Web: a future where users can manage their identity, privacy, money, and data. <a href="#">Learn More</a></p>
+                            <p>Another generous donor is the Open Web Collective, a blockchain accelerator and community pioneering the Open Web: a future where users can manage their identity, privacy, money, and data. <a href="https://openwebcollective.com/">Learn More</a></p>
                         </div>
                     </div>
                     <p class="council__title">The Cypherpunk Guild welcomes other donors, large and small. If you would like to contribute, please <a href="#contact">contact us</a> or use one of the methods below.</p>
