@@ -443,7 +443,7 @@
                         <div class="col-md-6 col-12">
                             <div class="contact__container">
                                 <img src="img/forum.svg" alt="forum">
-                                <a href="https://gov.near.org/">forum.near.org</a>
+                                <a href="https://gov.near.org/tag/cypherpunk-guild">gov.near.org</a>
                             </div>
                             <div class="contact__container">
                                 <img src="img/twitter.svg" alt="twitter">
