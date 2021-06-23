@@ -198,7 +198,7 @@
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
-                                        <p class="card__descr-name">Dani Orsorio</p>
+                                        <p class="card__descr-name">Dani Osorio</p>
                                         <p class="card__descr-sub">waverlymaven.near</p>
                                     </div>
                                     <p class="card__descr-position">Dartmouth grad and veteran of high-growth startups and the Ethereum ecosystem.</p>
