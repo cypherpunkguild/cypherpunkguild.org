@@ -410,8 +410,6 @@
                             <img src="img/qr/3.png" alt="QR">
                                 <p>NEAR: <span class="copy">cypherpunkguild.near</span></p>
                         </div>
-                    </div>
-                    <div class="qr row">
                         <div class="col-md-4 col-6">
                             <img src="img/qr/4.png" alt="QR">
                                 <p>Decred (DCR): <span class="copy">DsSu1toUhqZA2d4CVUuhRa8t173Sf1Bbnz1</span></p>

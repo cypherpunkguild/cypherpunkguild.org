@@ -32,6 +32,9 @@ body{
     outline-offset: 0;
 }
 
+section{
+    overflow: hidden;
+}
 
 :hover{
     transition: all 0.4s ease-out;
@@ -516,6 +519,7 @@ section{
 }
 
 .qr{
+    text-align: center;
     p{
         font-weight: bold;
         color: #fff;
@@ -532,6 +536,8 @@ section{
     overflow-wrap: anywhere;
     font-weight: normal;
     color: #C8C9C7;
+    display: block;
+    word-break: break-word;
 }
 
 .calendly-inline-widget{
