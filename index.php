@@ -491,6 +491,26 @@
         </div>
     </section>
 
+    <section class="council news">
+        <div class="council__container container">
+            <div class="council__row row">
+                <div class="council__col col-md-3 col-12">
+                    <h4 class="h4">
+                        News
+                    </h4>
+                </div>
+                <div class="council__col col-md-9 col-12">
+                    <div class="news">
+                        <a class="news__link" href="https://www.streetinsider.com/Newsfile/Cypherpunk+Holdings+Joins+the+Cypherpunk+Guild+Council/18587061.html"></a>
+                        <h3 class="news__title">Cypherpunk Holdings Joins the Cypherpunk Guild Council</h3>
+                        <p class="news__date">June 22, 2021</p>
+                        <p class="news__website">streetinsider.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <?php readfile("modal.html"); ?>
     <?php readfile("footer.html"); ?>
     <?php readfile("scripts.html"); ?>
