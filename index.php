@@ -238,7 +238,7 @@
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
-                                        <p class="card__descr-name">Yulian Lavysh</p>
+                                        <p class="card__descr-name">Yulian</p>
                                         <p class="card__descr-sub">nomad.near</p>
                                     </div>
                                     <p class="card__descr-position">Generalist with 5+ years of experience in High Growth tech companies.</p>
