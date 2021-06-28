@@ -154,7 +154,7 @@
                             <!-- card #3-->
                             <div class="card">
                                 <div class="card__img">
-                                    <img src="img/card/jon.png" alt="Jon">
+                                    <img src="img/card/jon.jgp" alt="Jon">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
