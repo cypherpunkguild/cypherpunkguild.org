@@ -110,8 +110,8 @@
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <!-- card #1-->
-                            <div class="card">
-                                <div class="card__img">
+                            <div class="card card--v1">
+                                <div class="card__img card__img--v1">
                                     <img src="img/card/arto.png" alt="Arto">
                                 </div>
                                 <div class="card__descr">
@@ -131,8 +131,8 @@
                                 </div>
                             </div>
                             <!-- card #2-->
-                            <div class="card">
-                                <div class="card__img">
+                            <div class="card card--v1">
+                                <div class="card__img card__img--v1">
                                     <img src="img/card/ev.png" alt="">
                                 </div>
                                 <div class="card__descr">
@@ -152,8 +152,8 @@
                                 </div>
                             </div>
                             <!-- card #3-->
-                            <div class="card">
-                                <div class="card__img">
+                            <div class="card card--v1">
+                                <div class="card__img card__img--v1">
                                     <img src="img/card/jon.jpg" alt="Jon">
                                 </div>
                                 <div class="card__descr">
@@ -173,8 +173,8 @@
                                 </div>
                             </div>
                             <!-- card #4-->
-                            <div class="card">
-                                <div class="card__img">
+                            <div class="card card--v1">
+                                <div class="card__img card__img--v1">
                                     <img src="img/card/ozy.png" alt="Ozymandius">
                                 </div>
                                 <div class="card__descr">
@@ -193,8 +193,8 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <!-- card #1-->
-                            <div class="card">
-                                <div class="card__img">
+                            <div class="card card--v1">
+                                <div class="card__img card__img--v1">
                                     <img src="img/card/dani.png" alt="Dani">
                                 </div>
                                 <div class="card__descr">
@@ -214,8 +214,8 @@
                                 </div>
                             </div>
                             <!-- card #2-->
-                            <div class="card">
-                                <div class="card__img">
+                            <div class="card card--v1">
+                                <div class="card__img card__img--v1">
                                     <img src="img/card/frank.png" alt="Frank">
                                 </div>
                                 <div class="card__descr">
@@ -232,8 +232,8 @@
                                 </div>
                             </div>
                             <!-- card #3-->
-                            <div class="card">
-                                <div class="card__img">
+                            <div class="card card--v1">
+                                <div class="card__img card__img--v1">
                                     <img src="img/card/yu.png" alt="Yulian">
                                 </div>
                                 <div class="card__descr">
