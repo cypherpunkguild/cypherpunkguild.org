@@ -290,7 +290,7 @@
                     <div class="council__list">
                         <div class="council__list-item"><div><span class="numb">1.</span></div><p>Join the the NEAR forum at <a href="https://gov.near.org/tag/cypherpunk-guild" style="margin-left:10px">gov.near.org</a></p></div>
                         <div class="council__list-item"><div><span class="numb">2.</span></div><p>Spend at least 10 minutes reading posts, in order to achieve <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Trust Level 1</a>, and receive posting privileges</p></div>
-                        <div class="council__list-item"><div><span class="numb">3.</span></div><p>Start a new topic in the Cypherpunk Guild community category; you will be presented with a a grant application form as a markdown template </p></div>
+                        <div class="council__list-item"><div><span class="numb">3.</span></div><p>Start a new topic by selecting the following tags: Community, Guilds, and adding Cypherpunk Guild as optional tag. For more information check our own <a href="https://gov.near.org/t/cypherpunk-guild-grant-program/19123?u=aria">forum post</a> for grant applications. </p></div>
                     </div>
                     <p>Alternatively, you may submit the required documentation regarding your project to <a href="mailto:info@cypherpunkguild.org">info@cypherpunkguild.org</a>, and we will repost it to the forum. Once your application is posted, the community can discuss it, and you can update it freely. If you feel uncomfortable with this public process, you may submit the application to us directly and request that we not share it.</p>
                 </div>
