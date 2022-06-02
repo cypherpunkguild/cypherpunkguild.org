@@ -326,7 +326,7 @@
                             <!-- card #2-->
                             <div class="card">
                                 <div class="card__img card__img--v2">
-                                    <img src="img/card/incognito.png" alt="Incognito">
+                                    <img src="img/card/inc.png" alt="Incognito">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
