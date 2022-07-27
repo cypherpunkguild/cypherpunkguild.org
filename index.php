@@ -364,11 +364,11 @@
                             <!-- card #5-->
                             <div class="card">
                                 <div class="card__img card__img--v2">
-                                    <img src="img/card/unic.png" alt="NYM">
+                                    <img src="img/card/unic.png" alt="unic">
                                 </div>
                                 <div class="card__descr">
                                     <div class="card__descr-inner">
-                                        <p class="card__descr-name">NYM</p>
+                                        <p class="card__descr-name">Unicrow</p>
                                         <p class="card__descr-sub"><a href="https://unicrow.io/">unicrow.io</a></p>
                                     </div>
                                     <p class="card__descr-position">Unstoppable escrow for cryptocurrency payments. No 3rd party necessary, no censorship possible. Built for marketplace developers and their users.</p>
