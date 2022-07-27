@@ -361,6 +361,18 @@
                                     </div>
                                     <p class="card__descr-position">Privacy-infrastructure gurus Nym are producing a ZKP study for the CPG and NEAR.</p>
                                 </div>
+                            <!-- card #5-->
+                            <div class="card">
+                                <div class="card__img card__img--v2">
+                                    <img src="img/card/unic.png" alt="unic">
+                                </div>
+                                <div class="card__descr">
+                                    <div class="card__descr-inner">
+                                        <p class="card__descr-name">Unicrow</p>
+                                        <p class="card__descr-sub"><a href="https://unicrow.io/">unicrow.io</a></p>
+                                    </div>
+                                    <p class="card__descr-position">Unstoppable escrow for cryptocurrency payments. No 3rd party necessary, no censorship possible. Built for marketplace developers and their users.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -475,16 +487,10 @@
                 </div>
                 <div class="council__col col-md-9 col-12">
                     <div class="event">
-                        <h3 class="event__title">Porcupine Freedom Festival</h3>
-                        <p class="event__date">21-27.06.2021</p>
-                        <p class="event__location">New Hampshire</p>
-                        <a class="event__link" href="https://porcfest.com" target="_blank">porcfest.com</a>
-                    </div>
-                    <div class="event">
-                        <h3 class="event__title">HCPP21</h3>
-                        <p class="event__date">1-3.10.2021</p>
-                        <p class="event__location">Prague</p>
-                        <a class="event__link" href="https://twitter.com/Paralelni_polis/status/1392555464857169922?s=20" target="_blank">twitter.com</a>
+                        <h3 class="event__title">NEARCON Beta</h3>
+                        <p class="event__date">11-14.09.2022</p>
+                        <p class="event__location">Lisbon</p>
+                        <a class="event__link" href="https://nearcon.org/" target="_blank">nearcon.org</a>
                     </div>
                 </div>
             </div>
